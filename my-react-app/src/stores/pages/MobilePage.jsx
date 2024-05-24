@@ -51,10 +51,10 @@ return (
                 <div className="pageImg">
                     <img src={item.image} alt="" />
                 </div>
+                </Link>
                 <div className="proModel">
                     {item.company}, {item.model}
                 </div>
-                </Link>
             </div>
         )
     })}
